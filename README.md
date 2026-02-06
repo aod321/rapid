@@ -1,29 +1,44 @@
 # RAPID: Reconfigurable, Adaptive Platform for Iterative Design
-[[Project page]](https://rapid-kit.github.io/)
-[[Paper]](https://rapid-kit.github.io//#paper)
+[[Project page]](https://rapid-kit.github.io/) [[Paper]](https://rapid-kit.github.io//#paper) [[Hardware Guide]](hardware/instruction.md)
 
 <img width="90%" src="assets/rapid_teaser.png">
-[authors_place_holder](https://rapid-kit.github.io//)<sup>1,2</sup>,
-<sup>1</sup> University,
+[Zi Yin](https://github.com/aod321), [Fanhong Li](https://github.com/fanhong-li), [Shurui Zheng](https://github.com/Ziegel-Thu), [Jia Liu](https://scholar.google.com/citations?user=xPoVpSEAAAAJ&hl=en)
 
-## HardWare Guide
+Tsinghua University
 
-3D Print: [https://makerworld.com/en]  Markerworld device direct print link, tested on Bambu A1 and Bambu P1s, Bambu PLA Basic
+## Getting Started
 
-Opensoure 3D Model: Step github link
+1. [Print and Assemble the Hardware](hardware/instruction.md)
+2. Set Up the Hardware Driver: refer to the [rapid_driver](https://github.com/aod321/rapid_driver) repository
+3. Collect Demonstration Data: follow the instructions below
 
-Assembly tutorial:
-BOM: 
+## Handheld Pipeline (Recommended)
 
-## Handheld Data Collection Pipeline
+### Stage 1: Data Collection
 
 UMI-style Go Pro pipeline: https://github.com/aod321/zumi_pipeline
 
-iPhone pipeline: 
+iPhone pipeline: *Coming soon*
 
+### Stage 2: Training
 
+1. Follow the installation instructions in the original UMI repository.
 
-## LeRobot Data Collection Pipeline
+2. Place the Zarr dataset obtained from Stage 1 into the workspace directory, then run:
+
+   ```bash
+   python train.py --config-name=train_diffusion_unet_timm_umi_workspace task.dataset_path=[ZARR DATASET PATH]
+   ```
+
+### Stage 3: Inference
+
+Options:
+
+1. Realman RM75: Please contact us for integration details.
+2. UR5: Community contributions welcome.
+3. Franka Panda: Community contributions welcome.
+
+## LeRobot Pipeline
 
 Hardware:
 
@@ -31,17 +46,16 @@ Hardware:
 
 - Ref Controller Firmware: https://github.com/aod321/50_arm_dummy-ref-core-fw
 
-  - Set DM3510 ID before integrate RAPID into this robot: 
+  - Set DM3510 ID before integrating RAPID into this robot:
 
     ```
     SLAVE_ID = 0x37
     MASTER_ID = 0x47
     ```
   
-
 - Main Camera and Gripper Camera: logitech c922 pro
 
-SoftWare:
+Software:
 
 https://github.com/aod321/lerobot
 
