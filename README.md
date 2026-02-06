@@ -1,5 +1,5 @@
 # RAPID: Reconfigurable, Adaptive Platform for Iterative Design
-[[Project page]](https://rapid-kit.github.io/) [[Paper]](https://rapid-kit.github.io//#paper) [[Hardware Guide]](hardware/instruction.md)
+[[Project page]](https://rapid-kit.github.io/) [[Paper]](https://rapid-kit.github.io/#paper) [[Hardware Guide]](hardware/instruction.md)
 
 <img width="90%" src="assets/rapid_teaser.png">
 
@@ -23,7 +23,7 @@ iPhone pipeline: *Coming soon*
 
 ### Stage 2: Training
 
-1. Follow the installation instructions in the original UMI repository.
+1. Follow the installation instructions in the original [UMI](https://github.com/real-stanford/universal_manipulation_interface) repository.
 
 2. Place the Zarr dataset obtained from Stage 1 into the workspace directory, then run:
 
@@ -86,4 +86,11 @@ CUDA_VISIBLE_DEVICES=1 lerobot-train --policy.type=diffusion --dataset.repo_id=[
 ```
 lerobot-teleoperate --robot.type=dummy_follower --robot.serial_number=396636713233 --robot.cameras='{"top":{"type": "opencv", "index_or_path": 0, "width": 320, "height": 240, "fps": 30}, "wrist": {"type": "opencv","index_or_path": 2, "width": 320, "height": 240, "fps": 30}}' --policy.path=[HUGGINGFACE_POLICY_ID]
 ```
+
+## Acknowledgements
+
+This project builds upon the following outstanding work:
+
+- [UMI (Universal Manipulation Interface)](https://github.com/real-stanford/universal_manipulation_interface)
+- [GET (GraspEveryThing)](https://github.com/GelSight-lab/GraspEveryThing/)
 

@@ -27,6 +27,9 @@
 
 ### Step 1: 3D Print Main Body
 
+- **3MF files (with print parameters):** [MakerWorld](https://makerworld.com/en/models/2357441-rapid-reconfigurable-adaptive-robotics-platform#profileId-2578932)
+- **CAD / STEP files:** [Autodesk A360](https://a360.co/4afDiNn)
+
 <table align="center">
 <tr>
 <td align="center" width="320">
@@ -101,16 +104,17 @@ Various configurations: tactile sensor, GoPro mount, different fingertips
 </td>
 </tr>
 </table>
-### Step 5: Attach Fingertip(GET Tactile for example)
+
+### Step 5: Attach Fingertip (GET Tactile for example)
 
 <table align="center">
 <tr>
-<td align="center" width="320">
+<td align="center" valign="top" width="320">
 <img src="./images/image9.jpeg" width="300"/><br/>
 <b>Attach Fingertip</b><br/>
-  Also compatible with ALOHA/UMI fingertips. <br/>M2×6 screws ×2
+Also compatible with ALOHA/UMI fingertips. <br/>M2×6 screws ×2
 </td>
-<td align="center" width="320">
+<td align="center" valign="top" width="320">
 <img src="./images/image11.jpeg" width="300"/><br/>
 <b>Install LED Strips</b><br/>
 RGB COB LED strips powered on
@@ -122,12 +126,12 @@ RGB COB LED strips powered on
 
 <table align="center">
 <tr>
-<td align="center" width="320">
+<td align="center" valign="top" width="320">
 <img src="./images/image12.jpeg" width="300"/><br/>
 <b>Install Camera</b><br/>
 Mount USB camera with M2×8 screws ×4
 </td>
-<td align="center" width="320">
+<td align="center" valign="top" width="320">
 <img src="./images/image13.jpeg" width="300"/><br/>
 <b>Install Camera</b><br/>
 Camera dock
@@ -145,7 +149,7 @@ Camera secured
 </tr>
 </table>
 
-### Step 8: Complete Tactile Assembly
+### Step 7: Complete Tactile Assembly
 
 <table align="center">
 <tr>
