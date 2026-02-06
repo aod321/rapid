@@ -2,6 +2,7 @@
 [[Project page]](https://rapid-kit.github.io/) [[Paper]](https://rapid-kit.github.io//#paper) [[Hardware Guide]](hardware/instruction.md)
 
 <img width="90%" src="assets/rapid_teaser.png">
+
 [Zi Yin](https://github.com/aod321), [Fanhong Li](https://github.com/fanhong-li), [Shurui Zheng](https://github.com/Ziegel-Thu), [Jia Liu](https://scholar.google.com/citations?user=xPoVpSEAAAAJ&hl=en)
 
 Tsinghua University
