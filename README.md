@@ -10,7 +10,7 @@ Tsinghua University
 ## Getting Started
 
 1. [Print and Assemble the Hardware](hardware/instruction.md)
-2. Set Up the Hardware Driver: refer to the [rapid_driver](https://github.com/aod321/rapid_driver) repository
+2. Set Up the Hardware Driver: refer to the [rapid_driver](https://github.com/aod321/rapid_driver/tree/RSS2026) repository
 3. Collect Demonstration Data: follow the instructions below
 
 ## Handheld Pipeline (Recommended)
@@ -93,4 +93,3 @@ This project builds upon the following outstanding work:
 
 - [UMI (Universal Manipulation Interface)](https://github.com/real-stanford/universal_manipulation_interface)
 - [GET (GraspEveryThing)](https://github.com/GelSight-lab/GraspEveryThing/)
-
